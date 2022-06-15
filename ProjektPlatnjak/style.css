@@ -1,0 +1,329 @@
+
+body{
+    background-color:gray;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1.2px;
+    font-family: "Open Sans";
+}
+/*header*/
+body>header{
+    padding: 0 21% 0 21%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vh;
+    border-bottom: 2px solid orange;
+}
+.logo{
+    position: absolute;
+    top:7px;
+    right:0;
+    width:120px;
+}
+
+header>img{
+    max-width: 150px;
+    width: 17%;
+}
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:link:active, a:visited:active {
+    color: black;
+}
+/*header Sport i politik*/
+.headerSportPolitik{
+    color:white;
+    text-decoration: none;
+}
+.administration{
+    color:white;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/*sadrzaj*/
+main{
+    margin:0 auto;
+    width:60%;
+}
+section{
+    height: 50%;
+    width:100%;
+    margin-bottom: 2em;
+}
+section > header{
+    font-size: large;
+    background-color: orange;
+    text-decoration: underline;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+.href:link, .href:visited, .href:active, .href:link:active, .href:visited:active{
+    color:white;
+}
+article{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 1.8px;
+}
+article>img{
+    max-width: 30%;
+    height: 200px;
+    width: 300px;
+    object-fit:cover;
+}
+.textAside{
+    width: 69%;
+}
+.textAside > h2{
+    margin-top: 0;
+}
+p{
+    font-size: medium;
+    line-height: 1.5em;
+}
+.linkRegistracija{
+    color:white;
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 5em;
+    padding-left: 10px;
+}
+.linkRegistracija > a{
+    color:orange;
+    font-size: x-large;
+    border-bottom: 2px solid orange;
+}
+.div_goBack{
+    text-align: center;
+}
+
+.goBack{
+    width: 300px;
+    
+}
+
+
+
+/*sadrzaj sport i politik*/
+.articleSportPolitik{
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding: 0 2%;
+}
+.articleSportPolitik>img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+
+}
+.dateSportPolitik, h1, .objavljeno, .author{
+    padding-left: 5%;
+    margin-top: 1%;
+    margin-bottom:1%;
+}
+h1{
+    margin-top: 3%;
+    font-size:x-large;
+}
+.clanakSportPolitik{
+    padding:0 10% 0 10%;
+    line-height: 2em;
+}
+.clanakIndex{
+    font-weight: bold;
+}
+.objavljeno, .author{
+    margin: 5px 0 0 0;
+}
+.mission{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.mission >img{
+    margin-bottom: 5vh;
+    border: 5px solid orange;
+}
+
+/*forma*/
+main>form{
+    width: 50%;
+    margin: 0 auto;
+    color:white;
+    font-size: x-large;
+    font-style: italic;
+    
+}
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+form label,
+form input,
+form button,
+form select {
+    margin-top: 1em;
+    display: block;
+    width: 100%;
+}
+form label{
+    margin-top: 0px;
+}
+
+form input {
+    margin-top:0;
+    height: 25px;
+    color: #000;
+    box-sizing: border-box;
+}
+.error{
+    
+    margin-top: 0;
+}
+
+form button {
+    font-size: large;
+    height: 50px;
+    background: #f18d2f;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 0;
+}
+.login{
+    border:2px solid orange;
+}
+.signIN{
+    margin-top:1em;
+}
+.registerPicture{
+    width:100%;
+}
+.registerPicture>img{
+    width: 100%;
+}
+.loginHeader{
+    margin-bottom: 5vh;
+}
+.loginFooter{
+    margin-top:15vh;
+}
+form .error {
+    color: #7a0000;
+}
+form span{
+    color: #7a0000;
+    font-weight: bold;
+    font-size: medium;
+    font-weight: lighter;
+    font-style: italic;
+}
+form select{
+    margin-top: 0;
+    text-align: center;
+    height: 30px;
+    font-size: large;
+}
+.pphoto{
+    text-align: center;
+    height: 30px;
+    font-size: large;
+    color: white;
+}
+.form-field-textual{
+    border: 2px solid #f18d2f;
+}
+.form-item{
+    margin-top: 1.5em;
+}
+
+
+
+
+/*footer*/
+footer{
+    background-color: rgb(53, 49, 49);
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer p{
+    margin: 0;
+}
+p span{
+    display:block;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media screen and (max-width: 1150px) {
+    /*Header*/
+    nav{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    /*Header*/
+    nav{
+        width: 70%;
+    }
+    article>img{
+        height: 168px;
+        margin-right: 2%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    /*Header*/
+    body>header{
+        display: flex;
+        flex-direction:column;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 2em;
+        padding-bottom: 2em;
+        
+    }
+    header>img{
+        width:50%;
+    }
+    article>img{
+        max-width: 100%;
+        margin:0;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .href{
+        margin:0 auto;
+    }
+    
+}
